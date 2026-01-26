@@ -2,13 +2,13 @@
 
 ## isEntireSheet()
 
-是否是整个工作表区域。
+忙聵炉氓聬娄忙聵炉忙聲麓盲赂陋氓路楼盲陆聹猫隆篓氓聦潞氓聼聼茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-boolean - 是否是整个工作表区域。
+boolean - 忙聵炉氓聬娄忙聵炉忙聲麓盲赂陋氓路楼盲陆聹猫隆篓氓聦潞氓聼聼茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const isEntireSheet = Workbook.getRange('A1').isEntireSheet();
@@ -16,13 +16,13 @@ const isEntireSheet = Workbook.getRange('A1').isEntireSheet();
 
 ## isEntireRow()
 
-是否是整行。
+忙聵炉氓聬娄忙聵炉忙聲麓猫隆聦茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-boolean - 是否是整行。
+boolean - 忙聵炉氓聬娄忙聵炉忙聲麓猫隆聦茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const isEntireRow = Workbook.getRange('A1').isEntireRow();
@@ -30,13 +30,13 @@ const isEntireRow = Workbook.getRange('A1').isEntireRow();
 
 ## isEntireColumn()
 
-是否是整列。
+忙聵炉氓聬娄忙聵炉忙聲麓氓聢聴茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-boolean - 是否是整列。
+boolean - 忙聵炉氓聬娄忙聵炉忙聲麓氓聢聴茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const isEntireColumn = Workbook.getRange('A1').isEntireColumn();
@@ -44,13 +44,13 @@ const isEntireColumn = Workbook.getRange('A1').isEntireColumn();
 
 ## isCell()
 
-是否是一个单元格。
+忙聵炉氓聬娄忙聵炉盲赂聙盲赂陋氓聧聲氓聟聝忙聽录茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-boolean - 是否是一个单元格。
+boolean - 忙聵炉氓聬娄忙聵炉盲赂聙盲赂陋氓聧聲氓聟聝忙聽录茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const isCell = Workbook.getRange('A1').isCell();
@@ -58,13 +58,13 @@ const isCell = Workbook.getRange('A1').isCell();
 
 ## activate()
 
-激活选区。
+忙驴聙忙麓禄茅聙聣氓聦潞茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1').activate()
@@ -72,13 +72,13 @@ Workbook.getRange('A1').activate()
 
 ## clear()
 
-清除样式和数据。
+忙赂聟茅聶陇忙聽路氓录聫氓聮聦忙聲掳忙聧庐茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1').clear();
@@ -86,13 +86,13 @@ Workbook.getRange('A1').clear();
 
 ## clearFormat()
 
-清除样式。
+忙赂聟茅聶陇忙聽路氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1').clearFormat();
@@ -100,13 +100,13 @@ Workbook.getRange('A1').clearFormat();
 
 ## clearData()
 
-清除数据。
+忙赂聟茅聶陇忙聲掳忙聧庐茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1').clearData();
@@ -114,19 +114,19 @@ Workbook.getRange('A1').clearData();
 
 ## setBackgroundColor(backgroundColor)
 
-设置选区单元格背景颜色。
+猫庐戮莽陆庐茅聙聣氓聦潞氓聧聲氓聟聝忙聽录猫聝聦忙聶炉茅垄聹猫聣虏茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| backgroundColor | string | null | 是 | 背景颜色, null 表示清除。使用十六进制字符串形式表示颜色，例如 '#ff0000' 表示红色。 |
+| backgroundColor | string | null | 忙聵炉 | 猫聝聦忙聶炉茅垄聹猫聣虏, null 猫隆篓莽陇潞忙赂聟茅聶陇茫聙聜盲陆驴莽聰篓氓聧聛氓聟颅猫驴聸氓聢露氓颅聴莽卢娄盲赂虏氓陆垄氓录聫猫隆篓莽陇潞茅垄聹猫聣虏茂录聦盲戮聥氓娄聜 '#ff0000' 猫隆篓莽陇潞莽潞垄猫聣虏茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1').setBackgroundColor('#ff0000');
@@ -134,13 +134,13 @@ Workbook.getRange('A1').setBackgroundColor('#ff0000');
 
 ## getBackgroundColor()
 
-获取左上角单元格背景色。
+猫聨路氓聫聳氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录猫聝聦忙聶炉猫聣虏茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Color - 背景颜色。
+Color - 猫聝聦忙聶炉茅垄聹猫聣虏茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const color = Workbook.getRange('A1').getBackgroundColor();
@@ -148,13 +148,13 @@ const color = Workbook.getRange('A1').getBackgroundColor();
 
 ## getBackgroundColors()
 
-获取区域单元格的背景色。
+猫聨路氓聫聳氓聦潞氓聼聼氓聧聲氓聟聝忙聽录莽職聞猫聝聦忙聶炉猫聣虏茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Array<Array<Color>>> - 背景颜色，二维数组。
+Array<Array<Color>>> - 猫聝聦忙聶炉茅垄聹猫聣虏茂录聦盲潞聦莽禄麓忙聲掳莽禄聞茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const colors = Workbook.getRange('A1').getBackgroundColors();
@@ -162,19 +162,19 @@ const colors = Workbook.getRange('A1').getBackgroundColors();
 
 ## setFontColor(fontColor)
 
-设置字体颜色。
+猫庐戮莽陆庐氓颅聴盲陆聯茅垄聹猫聣虏茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| fontColor | string | null | 是 | 字体颜色, null 表示清除。使用十六进制字符串形式表示颜色，例如 '#ff0000' 表示红色。 |
+| fontColor | string | null | 忙聵炉 | 氓颅聴盲陆聯茅垄聹猫聣虏, null 猫隆篓莽陇潞忙赂聟茅聶陇茫聙聜盲陆驴莽聰篓氓聧聛氓聟颅猫驴聸氓聢露氓颅聴莽卢娄盲赂虏氓陆垄氓录聫猫隆篓莽陇潞茅垄聹猫聣虏茂录聦盲戮聥氓娄聜 '#ff0000' 猫隆篓莽陇潞莽潞垄猫聣虏茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1').setFontColor('#ff0000');
@@ -182,13 +182,13 @@ Workbook.getRange('A1').setFontColor('#ff0000');
 
 ## getFontColor()
 
-获取左上角单元格字体颜色。
+猫聨路氓聫聳氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录氓颅聴盲陆聯茅垄聹猫聣虏茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Color - 字体颜色。
+Color - 氓颅聴盲陆聯茅垄聹猫聣虏茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const color = Workbook.getRange('A1').getFontColor();
@@ -196,13 +196,13 @@ const color = Workbook.getRange('A1').getFontColor();
 
 ## getFontColors()
 
-获取区域单元格字体颜色。
+猫聨路氓聫聳氓聦潞氓聼聼氓聧聲氓聟聝忙聽录氓颅聴盲陆聯茅垄聹猫聣虏茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Array<Array<Color>>> - 字体颜色。
+Array<Array<Color>>> - 氓颅聴盲陆聯茅垄聹猫聣虏茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const colors = Workbook.getRange('A1').getFontColors();
@@ -210,19 +210,19 @@ const colors = Workbook.getRange('A1').getFontColors();
 
 ## setFontFamily(fontFamily)
 
-设置字体。
+猫庐戮莽陆庐氓颅聴盲陆聯茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| fontFamily | string | null | 是 | 字体, null 表示清除。 |
+| fontFamily | string | null | 忙聵炉 | 氓颅聴盲陆聯, null 猫隆篓莽陇潞忙赂聟茅聶陇茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1').setFontFamily('arial');
@@ -230,13 +230,13 @@ Workbook.getRange('A1').setFontFamily('arial');
 
 ## getFontFamily()
 
-获取左上角单元格字体。
+猫聨路氓聫聳氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录氓颅聴盲陆聯茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-string - 字体。
+string - 氓颅聴盲陆聯茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const family = Workbook.getRange('A1').getFontFamily();
@@ -244,13 +244,13 @@ const family = Workbook.getRange('A1').getFontFamily();
 
 ## getFontFamilies()
 
-获取区域单元格字体。
+猫聨路氓聫聳氓聦潞氓聼聼氓聧聲氓聟聝忙聽录氓颅聴盲陆聯茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Array<Array<string>> - 字体。
+Array<Array<string>> - 氓颅聴盲陆聯茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const families = Workbook.getRange('A1').getFontFamilies();
@@ -258,19 +258,19 @@ const families = Workbook.getRange('A1').getFontFamilies();
 
 ## setFontSize(fontSize)
 
-设置字体大小。
+猫庐戮莽陆庐氓颅聴盲陆聯氓陇搂氓掳聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| fontSize | number | null | 是 | 字体大小, null 表示清除。 |
+| fontSize | number | null | 忙聵炉 | 氓颅聴盲陆聯氓陇搂氓掳聫, null 猫隆篓莽陇潞忙赂聟茅聶陇茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1').setFontSize(20);
@@ -278,13 +278,13 @@ Workbook.getRange('A1').setFontSize(20);
 
 ## getFontSize()
 
-获取左上角单元格字体大小。
+猫聨路氓聫聳氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录氓颅聴盲陆聯氓陇搂氓掳聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-number - 字体大小。
+number - 氓颅聴盲陆聯氓陇搂氓掳聫茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const size = Workbook.getRange('A1').getFontSize();
@@ -292,13 +292,13 @@ const size = Workbook.getRange('A1').getFontSize();
 
 ## getFontSizes()
 
-获取区域单元格字体大小。
+猫聨路氓聫聳氓聦潞氓聼聼氓聧聲氓聟聝忙聽录氓颅聴盲陆聯氓陇搂氓掳聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Array<Array<number>> - 字体大小。
+Array<Array<number>> - 氓颅聴盲陆聯氓陇搂氓掳聫茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const sizes = Workbook.getRange('A1').getFontSizes();
@@ -306,19 +306,19 @@ const sizes = Workbook.getRange('A1').getFontSizes();
 
 ## setFontWeight(fontWeight)
 
-设置字体粗体。
+猫庐戮莽陆庐氓颅聴盲陆聯莽虏聴盲陆聯茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| fontWeight | 'bold' | 'normal' | null | 是 | 字体粗细, null 表示清除。 |
+| fontWeight | 'bold' | 'normal' | null | 忙聵炉 | 氓颅聴盲陆聯莽虏聴莽禄聠, null 猫隆篓莽陇潞忙赂聟茅聶陇茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1').setFontWeight('bold');
@@ -326,13 +326,13 @@ Workbook.getRange('A1').setFontWeight('bold');
 
 ## getFontWeight()
 
-获取左上角单元格字体粗体。
+猫聨路氓聫聳氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录氓颅聴盲陆聯莽虏聴盲陆聯茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-'bold' | 'normal' - 字体粗体。
+'bold' | 'normal' - 氓颅聴盲陆聯莽虏聴盲陆聯茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const weight = Workbook.getRange('A1').getFontWeight();
@@ -340,13 +340,13 @@ const weight = Workbook.getRange('A1').getFontWeight();
 
 ## getFontWeights()
 
-获取区域单元格字体粗体。
+猫聨路氓聫聳氓聦潞氓聼聼氓聧聲氓聟聝忙聽录氓颅聴盲陆聯莽虏聴盲陆聯茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Array<Array<'bold' | 'normal'>> - 字体粗体。
+Array<Array<'bold' | 'normal'>> - 氓颅聴盲陆聯莽虏聴盲陆聯茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const weights = Workbook.getRange('A1').getFontWeights();
@@ -354,20 +354,20 @@ const weights = Workbook.getRange('A1').getFontWeights();
 
 ## setFontStyle(fontStyle)
 
-设置字体样式。
+猫庐戮莽陆庐氓颅聴盲陆聯忙聽路氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
 |  |  |  |  |
 | --- | --- | --- | --- |
-| 参数 | 类型 | 是否必传 | 说明 |
-| fontStyle | 'italic' | 'normal' | null | 是 | 字体样式, null 表示清除。 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
+| fontStyle | 'italic' | 'normal' | null | 忙聵炉 | 氓颅聴盲陆聯忙聽路氓录聫, null 猫隆篓莽陇潞忙赂聟茅聶陇茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1').setFontStyle('italic');
@@ -375,13 +375,13 @@ Workbook.getRange('A1').setFontStyle('italic');
 
 ## getFontStyle()
 
-获取左上角单元格字体样式。
+猫聨路氓聫聳氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录氓颅聴盲陆聯忙聽路氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-'italic' | 'normal' - 字体样式。
+'italic' | 'normal' - 氓颅聴盲陆聯忙聽路氓录聫茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const style = Workbook.getRange('A1').getFontStyle();
@@ -389,13 +389,13 @@ const style = Workbook.getRange('A1').getFontStyle();
 
 ## getFontStyles()
 
-获取区域单元格字体样式。
+猫聨路氓聫聳氓聦潞氓聼聼氓聧聲氓聟聝忙聽录氓颅聴盲陆聯忙聽路氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Array<Array<'italic' | 'normal'>> - 字体样式。
+Array<Array<'italic' | 'normal'>> - 氓颅聴盲陆聯忙聽路氓录聫茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const styles = Workbook.getRange('A1').getFontStyles();
@@ -403,19 +403,19 @@ const styles = Workbook.getRange('A1').getFontStyles();
 
 ## setIndent(indent)
 
-设置缩进。
+猫庐戮莽陆庐莽录漏猫驴聸茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| indent | number | null | 是 | 缩进，必须为正整数，null 表示清除。 |
+| indent | number | null | 忙聵炉 | 莽录漏猫驴聸茂录聦氓驴聟茅隆禄盲赂潞忙颅拢忙聲麓忙聲掳茂录聦null 猫隆篓莽陇潞忙赂聟茅聶陇茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1').setIndent(3);
@@ -423,13 +423,13 @@ Workbook.getRange('A1').setIndent(3);
 
 ## getIndent()
 
-获取左上角单元格缩进。
+猫聨路氓聫聳氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录莽录漏猫驴聸茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-number - 缩进。
+number - 莽录漏猫驴聸茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const indent = Workbook.getRange('A1').getIndent();
@@ -437,13 +437,13 @@ const indent = Workbook.getRange('A1').getIndent();
 
 ## getIndents()
 
-获取区域单元格缩进。
+猫聨路氓聫聳氓聦潞氓聼聼氓聧聲氓聟聝忙聽录莽录漏猫驴聸茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Array<Array<number>> - 缩进。
+Array<Array<number>> - 莽录漏猫驴聸茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const indents = Workbook.getRange('A1').getIndents();
@@ -451,19 +451,19 @@ const indents = Workbook.getRange('A1').getIndents();
 
 ## setHorizontalAlignment(alignment)
 
-设置水平对齐方式。
+猫庐戮莽陆庐忙掳麓氓鹿鲁氓炉鹿茅陆聬忙聳鹿氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| horizontalAlignment | 'left' | 'center' | 'right' | 'general' | null | 是 | 水平对齐方式, null 表示清除。 |
+| horizontalAlignment | 'left' | 'center' | 'right' | 'general' | null | 忙聵炉 | 忙掳麓氓鹿鲁氓炉鹿茅陆聬忙聳鹿氓录聫, null 猫隆篓莽陇潞忙赂聟茅聶陇茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1').setHorizontalAlignment('left');
@@ -471,13 +471,13 @@ Workbook.getRange('A1').setHorizontalAlignment('left');
 
 ## getHorizontalAlignment()
 
-获取左上角单元格水平对齐方式。
+猫聨路氓聫聳氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录忙掳麓氓鹿鲁氓炉鹿茅陆聬忙聳鹿氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-'left' | 'center' | 'right' | 'general' - 水平对齐方式。
+'left' | 'center' | 'right' | 'general' - 忙掳麓氓鹿鲁氓炉鹿茅陆聬忙聳鹿氓录聫茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const alignment = Workbook.getRange('A1').getHorizontalAlignment();
@@ -485,13 +485,13 @@ const alignment = Workbook.getRange('A1').getHorizontalAlignment();
 
 ## getHorizontalAlignments()
 
-获取区域单元格水平对齐方式。
+猫聨路氓聫聳氓聦潞氓聼聼氓聧聲氓聟聝忙聽录忙掳麓氓鹿鲁氓炉鹿茅陆聬忙聳鹿氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Array<Array<'left' | 'center' | 'right' | 'general'>> - 水平对齐方式。
+Array<Array<'left' | 'center' | 'right' | 'general'>> - 忙掳麓氓鹿鲁氓炉鹿茅陆聬忙聳鹿氓录聫茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const alignments = Workbook.getRange('A1').getHorizontalAlignments();
@@ -499,20 +499,20 @@ const alignments = Workbook.getRange('A1').getHorizontalAlignments();
 
 ## setVerticalAlignment(alignment)
 
-设置垂直对齐方式。
+猫庐戮莽陆庐氓聻聜莽聸麓氓炉鹿茅陆聬忙聳鹿氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
 |  |  |  |  |
 | --- | --- | --- | --- |
-| 参数 | 类型 | 是否必传 | 说明 |
-| verticalAlignment | 'top' | 'middle' | 'bottom' | null | 是 | 字体删除线, null 表示清除。 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
+| verticalAlignment | 'top' | 'middle' | 'bottom' | null | 忙聵炉 | 氓颅聴盲陆聯氓聢聽茅聶陇莽潞驴, null 猫隆篓莽陇潞忙赂聟茅聶陇茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1').setVerticalAlignments('top');
@@ -520,13 +520,13 @@ Workbook.getRange('A1').setVerticalAlignments('top');
 
 ## getVerticalAlignment()
 
-获取左上角单元格垂直对齐方式。
+猫聨路氓聫聳氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录氓聻聜莽聸麓氓炉鹿茅陆聬忙聳鹿氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-'top' | 'middle' | 'bottom' - 垂直对齐方式。
+'top' | 'middle' | 'bottom' - 氓聻聜莽聸麓氓炉鹿茅陆聬忙聳鹿氓录聫茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const alignment = Workbook.getRange('A1').getVerticalAlignment();
@@ -534,13 +534,13 @@ const alignment = Workbook.getRange('A1').getVerticalAlignment();
 
 ## getVerticalAlignments()
 
-获取区域单元格垂直对齐方式。。
+猫聨路氓聫聳氓聦潞氓聼聼氓聧聲氓聟聝忙聽录氓聻聜莽聸麓氓炉鹿茅陆聬忙聳鹿氓录聫茫聙聜茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Array<Array<'top' | 'middle' | 'bottom'>> - 垂直对齐方式。
+Array<Array<'top' | 'middle' | 'bottom'>> - 氓聻聜莽聸麓氓炉鹿茅陆聬忙聳鹿氓录聫茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const alignments = Workbook.getRange('A1').getVerticalAlignments();
@@ -548,19 +548,19 @@ const alignments = Workbook.getRange('A1').getVerticalAlignments();
 
 ## setWordWrap(wordWrap)
 
-设置换行方式。
+猫庐戮莽陆庐忙聧垄猫隆聦忙聳鹿氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| wordWrap | 'overflow' | 'clip' | 'autoWrap' | null | 是 | 换行方式, null 表示清除。 |
+| wordWrap | 'overflow' | 'clip' | 'autoWrap' | null | 忙聵炉 | 忙聧垄猫隆聦忙聳鹿氓录聫, null 猫隆篓莽陇潞忙赂聟茅聶陇茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1').setWordWrap('overflow');
@@ -568,13 +568,13 @@ Workbook.getRange('A1').setWordWrap('overflow');
 
 ## getWordWrap()
 
-获取左上角单元格换行方式。
+猫聨路氓聫聳氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录忙聧垄猫隆聦忙聳鹿氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-'overflow' | 'clip' | 'autoWrap' - 换行方式。
+'overflow' | 'clip' | 'autoWrap' - 忙聧垄猫隆聦忙聳鹿氓录聫茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const wordWrap = Workbook.getRange('A1').getWordWrap();
@@ -582,13 +582,13 @@ const wordWrap = Workbook.getRange('A1').getWordWrap();
 
 ## getWordWraps()
 
-获取区域单元格换行方式。
+猫聨路氓聫聳氓聦潞氓聼聼氓聧聲氓聟聝忙聽录忙聧垄猫隆聦忙聳鹿氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Array<Array<'overflow' | 'clip' | 'autoWrap'>> - 换行方式。
+Array<Array<'overflow' | 'clip' | 'autoWrap'>> - 忙聧垄猫隆聦忙聳鹿氓录聫茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const wordWraps = Workbook.getRange('A1').getWordWraps();
@@ -596,13 +596,13 @@ const wordWraps = Workbook.getRange('A1').getWordWraps();
 
 ## setBorder(null)
 
-清除边框。
+忙赂聟茅聶陇猫戮鹿忙隆聠茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 workbook.getActiveRange().setBorder(null);
@@ -610,21 +610,21 @@ workbook.getActiveRange().setBorder(null);
 
 ## setBorder(type, color, style)
 
-设置边框。
+猫庐戮莽陆庐猫戮鹿忙隆聠茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| type | BorderType | 是 | 边框类型。 |
-| color | string | 是 | 边框颜色。 |
-| style | 'none' |  'dotted'|  'dashed'|  'solid'|  'medium'|  'thick'|  'double'|  'hair'|  'dashDotDot'|  'dashDot'|  'mediumDashDotDot'|  'slantDashDot'|  'mediumDashDot'|  'mediumDashed' | 是 | 边框样式。 |
+| type | BorderType | 忙聵炉 | 猫戮鹿忙隆聠莽卤禄氓聻聥茫聙聜 |
+| color | string | 忙聵炉 | 猫戮鹿忙隆聠茅垄聹猫聣虏茫聙聜 |
+| style | 'none' |  'dotted'|  'dashed'|  'solid'|  'medium'|  'thick'|  'double'|  'hair'|  'dashDotDot'|  'dashDot'|  'mediumDashDotDot'|  'slantDashDot'|  'mediumDashDot'|  'mediumDashed' | 忙聵炉 | 猫戮鹿忙隆聠忙聽路氓录聫茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getActiveRange().setBorder({ top: true, bottom: true },  '#ff00ff', 'solid');
@@ -632,13 +632,13 @@ Workbook.getActiveRange().setBorder({ top: true, bottom: true },  '#ff00ff', 'so
 
 ## decreaseDecimal()
 
-减少小数位，如果 activeCell 在 Range 内，以 activeCell 为参照，否则以左上角单元格为参照。
+氓聡聫氓掳聭氓掳聫忙聲掳盲陆聧茂录聦氓娄聜忙聻聹 activeCell 氓聹篓 Range 氓聠聟茂录聦盲禄楼 activeCell 盲赂潞氓聫聜莽聟搂茂录聦氓聬娄氓聢聶盲禄楼氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录盲赂潞氓聫聜莽聟搂茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1').decreaseDecimal();
@@ -646,13 +646,13 @@ Workbook.getRange('A1').decreaseDecimal();
 
 ## increaseDecimal()
 
-减少小数位，如果 activeCell 在 Range 内，以 activeCell 为参照，否则以左上角单元格为参照。
+氓聡聫氓掳聭氓掳聫忙聲掳盲陆聧茂录聦氓娄聜忙聻聹 activeCell 氓聹篓 Range 氓聠聟茂录聦盲禄楼 activeCell 盲赂潞氓聫聜莽聟搂茂录聦氓聬娄氓聢聶盲禄楼氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录盲赂潞氓聫聜莽聟搂茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1').increaseDecimal();
@@ -660,19 +660,19 @@ Workbook.getRange('A1').increaseDecimal();
 
 ## setNumberFormat(numberFormat)
 
-设置数字格式。
+猫庐戮莽陆庐忙聲掳氓颅聴忙聽录氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| numberFormat | string | 是 | 数字格式，详情参考[数字格式](/document/orgapp-client/number-format#topic-2193105)。 |
+| numberFormat | string | 忙聵炉 | 忙聲掳氓颅聴忙聽录氓录聫茂录聦猫炉娄忙聝聟氓聫聜猫聙聝[忙聲掳氓颅聴忙聽录氓录聫](/document/orgapp-client/number-format#topic-2193105)茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getActiveRange().setNumberFormat('0.00');
@@ -680,13 +680,13 @@ Workbook.getActiveRange().setNumberFormat('0.00');
 
 ## getNumberFormat()
 
-获取左上角单元格数字格式。
+猫聨路氓聫聳氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录忙聲掳氓颅聴忙聽录氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-string - 数字格式。
+string - 忙聲掳氓颅聴忙聽录氓录聫茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const numberFormat = Workbook.getActiveRange().getNumberFormat();
@@ -694,13 +694,13 @@ const numberFormat = Workbook.getActiveRange().getNumberFormat();
 
 ## getNumberFormats()
 
-获取区域单元格数字格式。
+猫聨路氓聫聳氓聦潞氓聼聼氓聧聲氓聟聝忙聽录忙聲掳氓颅聴忙聽录氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Array<Array<string>> - 数字格式。
+Array<Array<string>> - 忙聲掳氓颅聴忙聽录氓录聫茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const numberFormats = Workbook.getActiveRange().getNumberFormats();
@@ -708,13 +708,13 @@ const numberFormats = Workbook.getActiveRange().getNumberFormats();
 
 ## getFormula()
 
-获取左上角单元格公式表达式。
+猫聨路氓聫聳氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录氓聟卢氓录聫猫隆篓猫戮戮氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-string - 公式表达式，无公式为空字符串。
+string - 氓聟卢氓录聫猫隆篓猫戮戮氓录聫茂录聦忙聴聽氓聟卢氓录聫盲赂潞莽漏潞氓颅聴莽卢娄盲赂虏茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const formula = Workbook.getActiveRange().getFormula();
@@ -722,13 +722,13 @@ const formula = Workbook.getActiveRange().getFormula();
 
 ## getFormulas()
 
-获取区域单元格公式表达式。
+猫聨路氓聫聳氓聦潞氓聼聼氓聧聲氓聟聝忙聽录氓聟卢氓录聫猫隆篓猫戮戮氓录聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Array<Array<string>> - 公式表达式，无公式为空字符串。
+Array<Array<string>> - 氓聟卢氓录聫猫隆篓猫戮戮氓录聫茂录聦忙聴聽氓聟卢氓录聫盲赂潞莽漏潞氓颅聴莽卢娄盲赂虏茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const formulas = Workbook.getActiveRange().getFormulas();
@@ -736,13 +736,13 @@ const formulas = Workbook.getActiveRange().getFormulas();
 
 ## getDisplayValue()
 
-获取左上角单元格显示值。显示值指基于数字格式等计算后的值。
+猫聨路氓聫聳氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录忙聵戮莽陇潞氓聙录茫聙聜忙聵戮莽陇潞氓聙录忙聦聡氓聼潞盲潞聨忙聲掳氓颅聴忙聽录氓录聫莽颅聣猫庐隆莽庐聴氓聬聨莽職聞氓聙录茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-string - 单元格显示值。
+string - 氓聧聲氓聟聝忙聽录忙聵戮莽陇潞氓聙录茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const value = Workbook.getActiveRange().getDisplayValue();
@@ -750,13 +750,13 @@ const value = Workbook.getActiveRange().getDisplayValue();
 
 ## getDisplayValues()
 
-获取区域单元格显示值。显示值指基于数字格式等计算后的值。
+猫聨路氓聫聳氓聦潞氓聼聼氓聧聲氓聟聝忙聽录忙聵戮莽陇潞氓聙录茫聙聜忙聵戮莽陇潞氓聙录忙聦聡氓聼潞盲潞聨忙聲掳氓颅聴忙聽录氓录聫莽颅聣猫庐隆莽庐聴氓聬聨莽職聞氓聙录茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Array<Array<string>> - 单元格显示值。
+Array<Array<string>> - 氓聧聲氓聟聝忙聽录忙聵戮莽陇潞氓聙录茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const formulas = Workbook.getActiveRange().getFormulas();
@@ -764,13 +764,13 @@ const formulas = Workbook.getActiveRange().getFormulas();
 
 ## getValue()
 
-获取左上角单元格值。
+猫聨路氓聫聳氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录氓聙录茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-string | number | boolean | null - 单元格值。
+string | number | boolean | null - 氓聧聲氓聟聝忙聽录氓聙录茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const value = Workbook.getActiveRange().getValue();
@@ -778,13 +778,13 @@ const value = Workbook.getActiveRange().getValue();
 
 ## getDisplayValues()
 
-获取区域单元格值。
+猫聨路氓聫聳氓聦潞氓聼聼氓聧聲氓聟聝忙聽录氓聙录茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Array<Array<string | number | boolean | null>> - 单元格值。
+Array<Array<string | number | boolean | null>> - 氓聧聲氓聟聝忙聽录氓聙录茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const values = Workbook.getActiveRange().getValues();
@@ -792,20 +792,20 @@ const values = Workbook.getActiveRange().getValues();
 
 ## setValues(values, options)
 
-设置值。
+猫庐戮莽陆庐氓聙录茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| value | Array<Array<string | boolean | number | null>> | 是 | 值，传null 表示清除。 |
-| options | SetValueOptions | 否 | 设置值的配置选项。 |
+| value | Array<Array<string | boolean | number | null>> | 忙聵炉 | 氓聙录茂录聦盲录聽null 猫隆篓莽陇潞忙赂聟茅聶陇茫聙聜 |
+| options | SetValueOptions | 氓聬娄 | 猫庐戮莽陆庐氓聙录莽職聞茅聟聧莽陆庐茅聙聣茅隆鹿茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange('A1:B1').setValues([
@@ -819,13 +819,13 @@ Workbook.getRange('A1:B1').setValues([
 
 ## merge()
 
-合并单元格。
+氓聬聢氓鹿露氓聧聲氓聟聝忙聽录茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getActiveRange().merge();
@@ -833,13 +833,13 @@ Workbook.getActiveRange().merge();
 
 ## unmerge()
 
-取消合并单元格。
+氓聫聳忙露聢氓聬聢氓鹿露氓聧聲氓聟聝忙聽录茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getActiveRange().unmerge();
@@ -847,13 +847,13 @@ Workbook.getActiveRange().unmerge();
 
 ## getMergedRanges()
 
-获取合并单元格区域。
+猫聨路氓聫聳氓聬聢氓鹿露氓聧聲氓聟聝忙聽录氓聦潞氓聼聼茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range[] - 合并单元格区域。
+Range[] - 氓聬聢氓鹿露氓聧聲氓聟聝忙聽录氓聦潞氓聼聼茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const ranges = Workbook.getActiveRange().getMergedRanges();
@@ -861,13 +861,13 @@ const ranges = Workbook.getActiveRange().getMergedRanges();
 
 ## getA1Notation()
 
-获取区域地址。
+猫聨路氓聫聳氓聦潞氓聼聼氓聹掳氓聺聙茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-string - 区域字符串地址。
+string - 氓聦潞氓聼聼氓颅聴莽卢娄盲赂虏氓聹掳氓聺聙茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const notation = Workbook.getActiveRange().getA1Notation();
@@ -875,13 +875,13 @@ const notation = Workbook.getActiveRange().getA1Notation();
 
 ## getRow()
 
-获取从0开始的行号。
+猫聨路氓聫聳盲禄聨0氓录聙氓搂聥莽職聞猫隆聦氓聫路茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-number - 行。
+number - 猫隆聦茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const row = Workbook.getActiveRange().getRow();
@@ -889,13 +889,13 @@ const row = Workbook.getActiveRange().getRow();
 
 ## getColumn()
 
-获取从0开始的列号。
+猫聨路氓聫聳盲禄聨0氓录聙氓搂聥莽職聞氓聢聴氓聫路茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-number - 列。
+number - 氓聢聴茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const column = Workbook.getActiveRange().getColumn();
@@ -903,13 +903,13 @@ const column = Workbook.getActiveRange().getColumn();
 
 ## getRowCount()
 
-获取行数。
+猫聨路氓聫聳猫隆聦忙聲掳茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-number - 行数。
+number - 猫隆聦忙聲掳茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const count = Workbook.getActiveRange().getRowCount();
@@ -917,13 +917,13 @@ const count = Workbook.getActiveRange().getRowCount();
 
 ## getColumnCount()
 
-获取列数。
+猫聨路氓聫聳氓聢聴忙聲掳茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-number - 列数。
+number - 氓聢聴忙聲掳茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const count = Workbook.getActiveRange().getColumnCount();
@@ -931,13 +931,13 @@ const count = Workbook.getActiveRange().getColumnCount();
 
 ## getHyperlink()
 
-获取单元格链接。
+猫聨路氓聫聳氓聧聲氓聟聝忙聽录茅聯戮忙聨楼茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Hyperlink | null - 单元格链接, null 表示无链接。
+Hyperlink | null - 氓聧聲氓聟聝忙聽录茅聯戮忙聨楼, null 猫隆篓莽陇潞忙聴聽茅聯戮忙聨楼茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const link = Workbook.getActiveRange().getHyperlink();
@@ -945,44 +945,44 @@ const link = Workbook.getActiveRange().getHyperlink();
 
 ## sort(field)
 
-排序当前区域。
+忙聨聮氓潞聫氓陆聯氓聣聧氓聦潞氓聼聼茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| field | SortField | number | 是 | 排序规则 ｜ 相对于当前 Range 首列的偏移量。 |
+| field | SortField | number | 忙聵炉 | 忙聨聮氓潞聫猫搂聞氓聢聶 茂陆聹 莽聸赂氓炉鹿盲潞聨氓陆聯氓聣聧 Range 茅娄聳氓聢聴莽職聞氓聛聫莽搂禄茅聡聫茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
-// 基于当前选区中的第0列进行逆序排序
+// 氓聼潞盲潞聨氓陆聯氓聣聧茅聙聣氓聦潞盲赂颅莽職聞莽卢卢0氓聢聴猫驴聸猫隆聦茅聙聠氓潞聫忙聨聮氓潞聫
 Workbook.getActiveRange().sort({  column: 0,  ascending: false });
 
-// 基于当前选区中的第0列进行顺序排序
+// 氓聼潞盲潞聨氓陆聯氓聣聧茅聙聣氓聦潞盲赂颅莽職聞莽卢卢0氓聢聴猫驴聸猫隆聦茅隆潞氓潞聫忙聨聮氓潞聫
 Workbook.getActiveRange().sort(0);
 ```
 
 ## find(text, findOptions)
 
-根据指定的条件查找匹配给定字符串的第一个Range。
+忙聽鹿忙聧庐忙聦聡氓庐職莽職聞忙聺隆盲禄露忙聼楼忙聣戮氓聦鹿茅聟聧莽禄聶氓庐職氓颅聴莽卢娄盲赂虏莽職聞莽卢卢盲赂聙盲赂陋Range茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| text | string | 是 | 要查找的字符串。 |
-| findOptions | SearchOptions | 否 | 其他搜索条件，包括搜索是否需要匹配整个单元格、区分大小写、是否使用正则表达式、是否匹配公式。 |
+| text | string | 忙聵炉 | 猫娄聛忙聼楼忙聣戮莽職聞氓颅聴莽卢娄盲赂虏茫聙聜 |
+| findOptions | SearchOptions | 氓聬娄 | 氓聟露盲禄聳忙聬聹莽麓垄忙聺隆盲禄露茂录聦氓聦聟忙聥卢忙聬聹莽麓垄忙聵炉氓聬娄茅聹聙猫娄聛氓聦鹿茅聟聧忙聲麓盲赂陋氓聧聲氓聟聝忙聽录茫聙聛氓聦潞氓聢聠氓陇搂氓掳聫氓聠聶茫聙聛忙聵炉氓聬娄盲陆驴莽聰篓忙颅拢氓聢聶猫隆篓猫戮戮氓录聫茫聙聛忙聵炉氓聬娄氓聦鹿茅聟聧氓聟卢氓录聫茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const range = Workbook.getRange('A1:C10');
@@ -992,20 +992,20 @@ const findRange2 = range.find('1', {  matchEntireCell: true });
 
 ## findNext(text, findOptions)
 
-根据指定的条件查找匹配给定字符串下一个Range，搜索范围为以当前Range左上角的Cell之后开始的整个工作表。
+忙聽鹿忙聧庐忙聦聡氓庐職莽職聞忙聺隆盲禄露忙聼楼忙聣戮氓聦鹿茅聟聧莽禄聶氓庐職氓颅聴莽卢娄盲赂虏盲赂聥盲赂聙盲赂陋Range茂录聦忙聬聹莽麓垄猫聦聝氓聸麓盲赂潞盲禄楼氓陆聯氓聣聧Range氓路娄盲赂聤猫搂聮莽職聞Cell盲鹿聥氓聬聨氓录聙氓搂聥莽職聞忙聲麓盲赂陋氓路楼盲陆聹猫隆篓茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| text | string | 是 | 要查找的字符串。 |
-| findOptions | SearchOptions | 否 | 其他搜索条件，包括搜索是否需要匹配整个单元格、区分大小写、是否使用正则、是否匹配公式。 |
+| text | string | 忙聵炉 | 猫娄聛忙聼楼忙聣戮莽職聞氓颅聴莽卢娄盲赂虏茫聙聜 |
+| findOptions | SearchOptions | 氓聬娄 | 氓聟露盲禄聳忙聬聹莽麓垄忙聺隆盲禄露茂录聦氓聦聟忙聥卢忙聬聹莽麓垄忙聵炉氓聬娄茅聹聙猫娄聛氓聦鹿茅聟聧忙聲麓盲赂陋氓聧聲氓聟聝忙聽录茫聙聛氓聦潞氓聢聠氓陇搂氓掳聫氓聠聶茫聙聛忙聵炉氓聬娄盲陆驴莽聰篓忙颅拢氓聢聶茫聙聛忙聵炉氓聬娄氓聦鹿茅聟聧氓聟卢氓录聫茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const range = Workbook.getRange('A2');
@@ -1014,20 +1014,20 @@ const findRange = range.findNext('1');
 
 ## findPrevious(text, findOptions)
 
-根据指定的条件查找匹配给定字符串上一个Range，搜索范围为以当前Range左上角的Cell之前的整个工作表。
+忙聽鹿忙聧庐忙聦聡氓庐職莽職聞忙聺隆盲禄露忙聼楼忙聣戮氓聦鹿茅聟聧莽禄聶氓庐職氓颅聴莽卢娄盲赂虏盲赂聤盲赂聙盲赂陋Range茂录聦忙聬聹莽麓垄猫聦聝氓聸麓盲赂潞盲禄楼氓陆聯氓聣聧Range氓路娄盲赂聤猫搂聮莽職聞Cell盲鹿聥氓聣聧莽職聞忙聲麓盲赂陋氓路楼盲陆聹猫隆篓茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 区域。
+Range - 氓聦潞氓聼聼茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| text | string | 是 | 要查找的字符串。 |
-| findOptions | SearchOptions | 否 | 其他搜索条件，包括搜索是否需要匹配整个单元格、区分大小写、是否使用正则、是否匹配公式。 |
+| text | string | 忙聵炉 | 猫娄聛忙聼楼忙聣戮莽職聞氓颅聴莽卢娄盲赂虏茫聙聜 |
+| findOptions | SearchOptions | 氓聬娄 | 氓聟露盲禄聳忙聬聹莽麓垄忙聺隆盲禄露茂录聦氓聦聟忙聥卢忙聬聹莽麓垄忙聵炉氓聬娄茅聹聙猫娄聛氓聦鹿茅聟聧忙聲麓盲赂陋氓聧聲氓聟聝忙聽录茫聙聛氓聦潞氓聢聠氓陇搂氓掳聫氓聠聶茫聙聛忙聵炉氓聬娄盲陆驴莽聰篓忙颅拢氓聢聶茫聙聛忙聵炉氓聬娄氓聦鹿茅聟聧氓聟卢氓录聫茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const range = Workbook.getRange('A2');
@@ -1036,21 +1036,21 @@ const findRange = range.findPrevious('1');
 
 ## replaceAll(text, replaceText, replaceOptions)
 
-根据指定的条件查找并替换给定的字符串。
+忙聽鹿忙聧庐忙聦聡氓庐職莽職聞忙聺隆盲禄露忙聼楼忙聣戮氓鹿露忙聸驴忙聧垄莽禄聶氓庐職莽職聞氓颅聴莽卢娄盲赂虏茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-number - 执行的替换数，可能与匹配单元格的数目不同。
+number - 忙聣搂猫隆聦莽職聞忙聸驴忙聧垄忙聲掳茂录聦氓聫炉猫聝陆盲赂聨氓聦鹿茅聟聧氓聧聲氓聟聝忙聽录莽職聞忙聲掳莽聸庐盲赂聧氓聬聦茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| text | string | 是 | 要查找的字符串。 |
-| replaceText | string | 是 | 替换原始字符串的字符串。 |
-| replaceOptions | SearchOptions |  | 其他替换条件，包括是否需要匹配整个单元格、区分大小写、是否使用正则、是否匹配公式。 |
+| text | string | 忙聵炉 | 猫娄聛忙聼楼忙聣戮莽職聞氓颅聴莽卢娄盲赂虏茫聙聜 |
+| replaceText | string | 忙聵炉 | 忙聸驴忙聧垄氓聨聼氓搂聥氓颅聴莽卢娄盲赂虏莽職聞氓颅聴莽卢娄盲赂虏茫聙聜 |
+| replaceOptions | SearchOptions |  | 氓聟露盲禄聳忙聸驴忙聧垄忙聺隆盲禄露茂录聦氓聦聟忙聥卢忙聵炉氓聬娄茅聹聙猫娄聛氓聦鹿茅聟聧忙聲麓盲赂陋氓聧聲氓聟聝忙聽录茫聙聛氓聦潞氓聢聠氓陇搂氓掳聫氓聠聶茫聙聛忙聵炉氓聬娄盲陆驴莽聰篓忙颅拢氓聢聶茫聙聛忙聵炉氓聬娄氓聦鹿茅聟聧氓聟卢氓录聫茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const range = Workbook.getRange('A1:C10');
@@ -1059,13 +1059,13 @@ const replaceCount = range.replaceAll('str', 'otherStr');
 
 ## insertCheckboxes()
 
-插入复选框。
+忙聫聮氓聟楼氓陇聧茅聙聣忙隆聠茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - Range。
+Range - Range茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const range = Workbook.getRange(2, 2, 2, 2);
@@ -1074,13 +1074,13 @@ range.insertCheckboxes();
 
 ## deleteCheckboxes()
 
-清除复选框，value 不会清除。
+忙赂聟茅聶陇氓陇聧茅聙聣忙隆聠茂录聦value 盲赂聧盲录職忙赂聟茅聶陇茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - Range。
+Range - Range茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const range = Workbook.getRange(2, 2, 2, 2);
@@ -1089,13 +1089,13 @@ range.deleteCheckboxes();
 
 ## getCheckedState()
 
-返回左上角单元格是否勾选，null表示单元格不是复选框。
+猫驴聰氓聸聻氓路娄盲赂聤猫搂聮氓聧聲氓聟聝忙聽录忙聵炉氓聬娄氓聥戮茅聙聣茂录聦null猫隆篓莽陇潞氓聧聲氓聟聝忙聽录盲赂聧忙聵炉氓陇聧茅聙聣忙隆聠茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-boolean | null - 是否勾选。
+boolean | null - 忙聵炉氓聬娄氓聥戮茅聙聣茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const state = Workbook.getRange(2, 2, 2, 2).getCheckedState();
@@ -1103,13 +1103,13 @@ const state = Workbook.getRange(2, 2, 2, 2).getCheckedState();
 
 ## getCheckedStates()
 
-返回区域单元格是否勾选，null表示单元格不是复选框。
+猫驴聰氓聸聻氓聦潞氓聼聼氓聧聲氓聟聝忙聽录忙聵炉氓聬娄氓聥戮茅聙聣茂录聦null猫隆篓莽陇潞氓聧聲氓聟聝忙聽录盲赂聧忙聵炉氓陇聧茅聙聣忙隆聠茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Array<Array<boolean | null>> - 区域单元格勾选的状态。
+Array<Array<boolean | null>> - 氓聦潞氓聼聼氓聧聲氓聟聝忙聽录氓聥戮茅聙聣莽職聞莽聤露忙聙聛茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const states = Workbook.getRange(2, 2, 2, 2).getCheckedStates();
@@ -1117,19 +1117,19 @@ const states = Workbook.getRange(2, 2, 2, 2).getCheckedStates();
 
 ## setCheckedState(checked)
 
-勾选/取消勾选复选框。
+氓聥戮茅聙聣/氓聫聳忙露聢氓聥戮茅聙聣氓陇聧茅聙聣忙隆聠茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - Range。
+Range - Range茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| checked | boolean | 是 | 是否勾选。 |
+| checked | boolean | 忙聵炉 | 忙聵炉氓聬娄氓聥戮茅聙聣茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange(2, 2, 2, 2).setCheckedState(true);
@@ -1137,19 +1137,19 @@ Workbook.getRange(2, 2, 2, 2).setCheckedState(true);
 
 ## setCheckedStates(checkeds)
 
-勾选/取消勾选复选框。
+氓聥戮茅聙聣/氓聫聳忙露聢氓聥戮茅聙聣氓陇聧茅聙聣忙隆聠茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - Range。
+Range - Range茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| checkeds | Array<Array<boolean | null>> | 是 | 是否勾选，null 表示跳过。 |
+| checkeds | Array<Array<boolean | null>> | 忙聵炉 | 忙聵炉氓聬娄氓聥戮茅聙聣茂录聦null 猫隆篓莽陇潞猫路鲁猫驴聡茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getRange(2, 2, 2, 2).setCheckedStates([[true, false], [false, null]]);
@@ -1157,33 +1157,33 @@ Workbook.getRange(2, 2, 2, 2).setCheckedStates([[true, false], [false, null]]);
 
 ## insertDropdownLists(options)
 
-设置下拉框。
+猫庐戮莽陆庐盲赂聥忙聥聣忙隆聠茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - Range。
+Range - Range茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| options | DropdownListOption[] | 是 | 下拉选项。 |
+| options | DropdownListOption[] | 忙聵炉 | 盲赂聥忙聥聣茅聙聣茅隆鹿茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const range = Workbook.getActiveRange();
 range.insertDropdownLists([
     {
-        value: '篮球',
+        value: '莽炉庐莽聬聝',
         color: '#ff0000',
     },
     {
-        value: '足球',
+        value: '猫露鲁莽聬聝',
         color: '#00ff00',
     },
     {
-        value: '排球',
+        value: '忙聨聮莽聬聝',
         color: '#0000ff',
     },
 ])
@@ -1191,13 +1191,13 @@ range.insertDropdownLists([
 
 ## deleteDropdownLists()
 
-清除下拉框，value 不会清除。
+忙赂聟茅聶陇盲赂聥忙聥聣忙隆聠茂录聦value 盲赂聧盲录職忙赂聟茅聶陇茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - Range。
+Range - Range茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.getActiveRange().deleteDropdownLists();

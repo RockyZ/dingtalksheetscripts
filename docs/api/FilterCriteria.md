@@ -2,13 +2,13 @@
 
 ## copy()
 
-根据当前 FilterCriteria 生成新的 FilterCriteriaBuilder。
+æ ¹æ®å½å FilterCriteria çææ°ç FilterCriteriaBuilderã
 
-### 返回结果
+### è¿åç»æ
 
-FilterCriteriaBuilder - 新的FilterCriteriaBuilder。
+FilterCriteriaBuilder - æ°çFilterCriteriaBuilderã
 
-### 示例代码
+### ç¤ºä¾ä»£ç 
 
 ```
 const builder = criteria.copy();
@@ -16,13 +16,13 @@ const builder = criteria.copy();
 
 ## getVisibleValues()
 
-获取设置的可见值。
+è·åè®¾ç½®çå¯è§å¼ã
 
-### 返回结果
+### è¿åç»æ
 
-string[] | null - 可见值。
+string[] | null - å¯è§å¼ã
 
-### 示例代码
+### ç¤ºä¾ä»£ç 
 
 ```
 builder.getVisibleValues();
@@ -30,13 +30,13 @@ builder.getVisibleValues();
 
 ## getVisibleFontColor()
 
-获取设置的可见字体颜色。
+è·åè®¾ç½®çå¯è§å­ä½é¢è²ã
 
-### 返回结果
+### è¿åç»æ
 
-Color ｜ null - 可见字体颜色。
+Color ï½ null - å¯è§å­ä½é¢è²ã
 
-### 示例代码
+### ç¤ºä¾ä»£ç 
 
 ```
 builder.getVisibleFontColor();
@@ -44,13 +44,13 @@ builder.getVisibleFontColor();
 
 ## getVisibleBackgroundColor()
 
-获取设置的可见单元格颜色。
+è·åè®¾ç½®çå¯è§ååæ ¼é¢è²ã
 
-### 返回结果
+### è¿åç»æ
 
-Color ｜ null - 可见单元格颜色。
+Color ï½ null - å¯è§ååæ ¼é¢è²ã
 
-### 示例代码
+### ç¤ºä¾ä»£ç 
 
 ```
 builder.getVisibleBackgroundColor();
@@ -58,13 +58,13 @@ builder.getVisibleBackgroundColor();
 
 ## getVisibleConditions()
 
-获取设置的筛选条件。
+è·åè®¾ç½®çç­éæ¡ä»¶ã
 
-### 返回结果
+### è¿åç»æ
 
-FilterCondition[] | null - 筛选条件列表。
+FilterCondition[] | null - ç­éæ¡ä»¶åè¡¨ã
 
-### 示例代码
+### ç¤ºä¾ä»£ç 
 
 ```
 builder.getVisibleConditions();
@@ -72,13 +72,13 @@ builder.getVisibleConditions();
 
 ## getVisibleConditionsOperator()
 
-获取设置的两个筛选条件关系。
+è·åè®¾ç½®çä¸¤ä¸ªç­éæ¡ä»¶å³ç³»ã
 
-### 返回结果
+### è¿åç»æ
 
-'and' | 'or' | null - 筛选条件关系。
+'and' | 'or' | null - ç­éæ¡ä»¶å³ç³»ã
 
-### 示例代码
+### ç¤ºä¾ä»£ç 
 
 ```
 builder.getVisibleConditionsOperator();

@@ -1,16 +1,16 @@
 # BorderType
 
-## API描述
+## API忙聫聫猫驴掳
 
-边框类型。用于 Range.setBoder() API中指定要操作的边框类型。
+猫戮鹿忙隆聠莽卤禄氓聻聥茫聙聜莽聰篓盲潞聨 Range.setBoder() API盲赂颅忙聦聡氓庐職猫娄聛忙聯聧盲陆聹莽職聞猫戮鹿忙隆聠莽卤禄氓聻聥茫聙聜
 
-## 属性说明
+## 氓卤聻忙聙搂猫炉麓忙聵聨
 
-| 属性 | 类型 | 是否必填 | 说明 |
+| 氓卤聻忙聙搂 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟氓隆芦 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| top | boolean | 否 | 顶部位置。 |
-| bottom | boolean | 否 | 底部位置。 |
-| left | boolean | 否 | 左边位置。 |
-| right | boolean | 否 | 右边位置。 |
-| vertical | boolean | 否 | 垂直位置（除去两边）。 |
-| horizontal | boolean | 否 | 水平位置（除去两边）。 |
+| top | boolean | 氓聬娄 | 茅隆露茅聝篓盲陆聧莽陆庐茫聙聜 |
+| bottom | boolean | 氓聬娄 | 氓潞聲茅聝篓盲陆聧莽陆庐茫聙聜 |
+| left | boolean | 氓聬娄 | 氓路娄猫戮鹿盲陆聧莽陆庐茫聙聜 |
+| right | boolean | 氓聬娄 | 氓聫鲁猫戮鹿盲陆聧莽陆庐茫聙聜 |
+| vertical | boolean | 氓聬娄 | 氓聻聜莽聸麓盲陆聧莽陆庐茂录聢茅聶陇氓聨禄盲赂陇猫戮鹿茂录聣茫聙聜 |
+| horizontal | boolean | 氓聬娄 | 忙掳麓氓鹿鲁盲陆聧莽陆庐茂录聢茅聶陇氓聨禄盲赂陇猫戮鹿茂录聣茫聙聜 |

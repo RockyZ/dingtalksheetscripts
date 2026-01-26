@@ -1,13 +1,13 @@
 # Hyperlink
 
-## API描述
+## API忙聫聫猫驴掳
 
-超链接。用于Range.getHyperlink()或者Range.setHyperlink() API中访问超链接。
+猫露聟茅聯戮忙聨楼茫聙聜莽聰篓盲潞聨Range.getHyperlink()忙聢聳猫聙聟Range.setHyperlink() API盲赂颅猫庐驴茅聴庐猫露聟茅聯戮忙聨楼茫聙聜
 
-## 属性说明
+## 氓卤聻忙聙搂猫炉麓忙聵聨
 
-| 属性 | 类型 | 是否必填 | 说明 |
+| 氓卤聻忙聙搂 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟氓隆芦 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| type | string | 是 | 超链接的类型，可选择以下值。   * **path**：网页链接 * **sheet**：表格引用 * **range**：单元格引用 |
-| link | string | 是 | 链接的内容。   * 当type为path，是一个普通网页链接。 * 当type为sheet，是一个SheetName，例如sheet1。 * 当type为range，是一个引用，例如Sheet1!A1。 |
-| text | string | 否 | 单元格显示的内容，任意文本。 |
+| type | string | 忙聵炉 | 猫露聟茅聯戮忙聨楼莽職聞莽卤禄氓聻聥茂录聦氓聫炉茅聙聣忙聥漏盲禄楼盲赂聥氓聙录茫聙聜   * **path**茂录職莽陆聭茅隆碌茅聯戮忙聨楼 * **sheet**茂录職猫隆篓忙聽录氓录聲莽聰篓 * **range**茂录職氓聧聲氓聟聝忙聽录氓录聲莽聰篓 |
+| link | string | 忙聵炉 | 茅聯戮忙聨楼莽職聞氓聠聟氓庐鹿茫聙聜   * 氓陆聯type盲赂潞path茂录聦忙聵炉盲赂聙盲赂陋忙聶庐茅聙職莽陆聭茅隆碌茅聯戮忙聨楼茫聙聜 * 氓陆聯type盲赂潞sheet茂录聦忙聵炉盲赂聙盲赂陋SheetName茂录聦盲戮聥氓娄聜sheet1茫聙聜 * 氓陆聯type盲赂潞range茂录聦忙聵炉盲赂聙盲赂陋氓录聲莽聰篓茂录聦盲戮聥氓娄聜Sheet1!A1茫聙聜 |
+| text | string | 氓聬娄 | 氓聧聲氓聟聝忙聽录忙聵戮莽陇潞莽職聞氓聠聟氓庐鹿茂录聦盲禄禄忙聞聫忙聳聡忙聹卢茫聙聜 |

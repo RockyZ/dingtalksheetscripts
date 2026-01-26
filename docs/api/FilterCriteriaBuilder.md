@@ -2,13 +2,13 @@
 
 ## copy()
 
-根据当前 FilterCriteriaBuilder 生成新的 FilterCriteriaBuilder。
+忙聽鹿忙聧庐氓陆聯氓聣聧 FilterCriteriaBuilder 莽聰聼忙聢聬忙聳掳莽職聞 FilterCriteriaBuilder茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-FilterCriteriaBuilder - 新的FilterCriteriaBuilder。
+FilterCriteriaBuilder - 忙聳掳莽職聞FilterCriteriaBuilder茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const builder = Workbook.newFilterCriteriaBuilder();
@@ -19,19 +19,19 @@ filter.setColumnFilterCriteria(0, copyBuilder.build());
 
 ## setVisibleValues(values)
 
-按值筛选-设置可见值。
+忙聦聣氓聙录莽颅聸茅聙聣-猫庐戮莽陆庐氓聫炉猫搂聛氓聙录茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-FilterCriteriaBuilder - 当前FilterCriteriaBuilder实例。
+FilterCriteriaBuilder - 氓陆聯氓聣聧FilterCriteriaBuilder氓庐聻盲戮聥茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| values | string[] | 是 | 可见值。 |
+| values | string[] | 忙聵炉 | 氓聫炉猫搂聛氓聙录茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const builder = Workbook.newFilterCriteriaBuilder();
@@ -42,19 +42,19 @@ filter.setColumnFilterCriteria(0, criteria);
 
 ## setVisibleBackgroundColor(visibleBackgroundColor)
 
-按单元格颜色筛选。
+忙聦聣氓聧聲氓聟聝忙聽录茅垄聹猫聣虏莽颅聸茅聙聣茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-FilterCriteriaBuilder - 当前FilterCriteriaBuilder实例。
+FilterCriteriaBuilder - 氓陆聯氓聣聧FilterCriteriaBuilder氓庐聻盲戮聥茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| visibleBackgroundColor | Color | 是 | 单元格颜色。 |
+| visibleBackgroundColor | Color | 忙聵炉 | 氓聧聲氓聟聝忙聽录茅垄聹猫聣虏茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const color = sheet.getRange('C3').getBackgroundColor();
@@ -66,19 +66,19 @@ filter.setColumnFilterCriteria(0, criteria);
 
 ## setVisibleFontColor(visibleFontColor)
 
-按单元格颜色筛选。
+忙聦聣氓聧聲氓聟聝忙聽录茅垄聹猫聣虏莽颅聸茅聙聣茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-FilterCriteriaBuilder - 当前FilterCriteriaBuilder实例。
+FilterCriteriaBuilder - 氓陆聯氓聣聧FilterCriteriaBuilder氓庐聻盲戮聥茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| visibleFontColor | Color | 是 | 字体颜色。 |
+| visibleFontColor | Color | 忙聵炉 | 氓颅聴盲陆聯茅垄聹猫聣虏茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const color = sheet.getRange('C3').getFontColor();
@@ -90,21 +90,21 @@ filter.setColumnFilterCriteria(0, criteria);
 
 ## setVisibleConditions(condition1, condition2, operator)
 
-按条件筛选。
+忙聦聣忙聺隆盲禄露莽颅聸茅聙聣茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-FilterCriteriaBuilder - 当前FilterCriteriaBuilder实例。
+FilterCriteriaBuilder - 氓陆聯氓聣聧FilterCriteriaBuilder氓庐聻盲戮聥茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| condition1 | FilterCondition | 是 | 筛选条件 |
-| condition2 | FilterCondition | 否 | 筛选条件 |
-| operator | 'and' | 'or' | 否 | 两个筛选条件的关系 |
+| condition1 | FilterCondition | 忙聵炉 | 莽颅聸茅聙聣忙聺隆盲禄露 |
+| condition2 | FilterCondition | 氓聬娄 | 莽颅聸茅聙聣忙聺隆盲禄露 |
+| operator | 'and' | 'or' | 氓聬娄 | 盲赂陇盲赂陋莽颅聸茅聙聣忙聺隆盲禄露莽職聞氓聟鲁莽鲁禄 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const filterCondition1 = {
@@ -125,13 +125,13 @@ const criteria2 = Workbook.newFilterCriteriaBuilder().
 
 ## getVisibleValues()
 
-获取设置的可见值。
+猫聨路氓聫聳猫庐戮莽陆庐莽職聞氓聫炉猫搂聛氓聙录茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-string[] | null - 可见值。
+string[] | null - 氓聫炉猫搂聛氓聙录茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 builder.getVisibleValues();
@@ -139,13 +139,13 @@ builder.getVisibleValues();
 
 ## getVisibleFontColor()
 
-获取设置的可见字体颜色。
+猫聨路氓聫聳猫庐戮莽陆庐莽職聞氓聫炉猫搂聛氓颅聴盲陆聯茅垄聹猫聣虏茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Color ｜ null - 可见字体颜色。
+Color 茂陆聹 null - 氓聫炉猫搂聛氓颅聴盲陆聯茅垄聹猫聣虏茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 builder.getVisibleFontColor();
@@ -153,13 +153,13 @@ builder.getVisibleFontColor();
 
 ## getVisibleBackgroundColor()
 
-获取设置的可见单元格颜色。
+猫聨路氓聫聳猫庐戮莽陆庐莽職聞氓聫炉猫搂聛氓聧聲氓聟聝忙聽录茅垄聹猫聣虏茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Color ｜ null - 可见单元格颜色。
+Color 茂陆聹 null - 氓聫炉猫搂聛氓聧聲氓聟聝忙聽录茅垄聹猫聣虏茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 builder.getVisibleBackgroundColor();
@@ -167,13 +167,13 @@ builder.getVisibleBackgroundColor();
 
 ## getVisibleConditions()
 
-获取设置的筛选条件。
+猫聨路氓聫聳猫庐戮莽陆庐莽職聞莽颅聸茅聙聣忙聺隆盲禄露茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-FilterCondition[] | null - 筛选条件列表。
+FilterCondition[] | null - 莽颅聸茅聙聣忙聺隆盲禄露氓聢聴猫隆篓茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 builder.getVisibleConditions();
@@ -181,13 +181,13 @@ builder.getVisibleConditions();
 
 ## getVisibleConditionsOperator()
 
-获取设置的两个筛选条件关系。
+猫聨路氓聫聳猫庐戮莽陆庐莽職聞盲赂陇盲赂陋莽颅聸茅聙聣忙聺隆盲禄露氓聟鲁莽鲁禄茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-'and' | 'or' | null - 筛选条件关系。
+'and' | 'or' | null - 莽颅聸茅聙聣忙聺隆盲禄露氓聟鲁莽鲁禄茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 builder.getVisibleConditionsOperator();
@@ -195,13 +195,13 @@ builder.getVisibleConditionsOperator();
 
 ## build()
 
-生成筛选规则。
+莽聰聼忙聢聬莽颅聸茅聙聣猫搂聞氓聢聶茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-FilterCriteria - 筛选规则。
+FilterCriteria - 莽颅聸茅聙聣猫搂聞氓聢聶茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 workbook.newFilterCriteriaBuilder().

@@ -33,15 +33,16 @@ except ImportError:
     sys.exit(1)
 
 # API 文档配置：API名称 -> HTML文件名
+# 值为 None 表示该 API 在官方 OSS 上没有单独的文档页面
 API_DOCS = {
     # 核心对象
     "Workbook": "Workbook",
     "Sheet": "Sheet",
     "Range": "Range",
     "RangeList": "RangeList",
-    # 用户交互
-    "Input": "Input",
-    "Output": "Output",
+    # 用户交互（官方 OSS 无单独页面，使用本地手写文档）
+    "Input": None,
+    "Output": None,
     # 筛选相关
     "Filter": "Filter-api",
     "FilterCriteria": "FilterCriteria",
@@ -117,6 +118,12 @@ def update_api_doc(api_name: str, output_dir: Path) -> bool:
         return False
 
     html_name = API_DOCS[api_name]
+
+    # 检查是否有官方文档
+    if html_name is None:
+        print(f"\n跳过 {api_name}... (官方 OSS 无单独页面，保留本地文档)")
+        return True
+
     output_path = output_dir / f"{api_name}.md"
 
     print(f"\n更新 {api_name}...")
@@ -165,7 +172,7 @@ def main():
         print("\n核心对象：")
         for api in ["Workbook", "Sheet", "Range", "RangeList"]:
             print(f"  - {api}")
-        print("\n用户交互：")
+        print("\n用户交互（本地文档，无法从 OSS 更新）：")
         for api in ["Input", "Output"]:
             print(f"  - {api}")
         print("\n筛选相关：")

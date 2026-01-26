@@ -2,13 +2,13 @@
 
 ## insertSheet()
 
-插入工作表。
+忙聫聮氓聟楼氓路楼盲陆聹猫隆篓茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Sheet - 新增加的工作表
+Sheet - 忙聳掳氓垄聻氓聤聽莽職聞氓路楼盲陆聹猫隆篓
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.insertSheet();
@@ -16,19 +16,19 @@ Workbook.insertSheet();
 
 ## insertSheet(name)
 
-插入工作表，并指定名字。
+忙聫聮氓聟楼氓路楼盲陆聹猫隆篓茂录聦氓鹿露忙聦聡氓庐職氓聬聧氓颅聴茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Sheet - 新增加的工作表
+Sheet - 忙聳掳氓垄聻氓聤聽莽職聞氓路楼盲陆聹猫隆篓
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| name | string | 是 | 指定新工作表名字 |
+| name | string | 忙聵炉 | 忙聦聡氓庐職忙聳掳氓路楼盲陆聹猫隆篓氓聬聧氓颅聴 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.insertSheet('A new sheet');
@@ -36,19 +36,19 @@ Workbook.insertSheet('A new sheet');
 
 ## insertSheet(index)
 
-插入工作表，并指定位置。
+忙聫聮氓聟楼氓路楼盲陆聹猫隆篓茂录聦氓鹿露忙聦聡氓庐職盲陆聧莽陆庐茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Sheet - 新增加的工作表
+Sheet - 忙聳掳氓垄聻氓聤聽莽職聞氓路楼盲陆聹猫隆篓
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| index | number | 是 | 指定新工作表位置，从 0 开始，在index 之后插入工作表。 |
+| index | number | 忙聵炉 | 忙聦聡氓庐職忙聳掳氓路楼盲陆聹猫隆篓盲陆聧莽陆庐茂录聦盲禄聨 0 氓录聙氓搂聥茂录聦氓聹篓index 盲鹿聥氓聬聨忙聫聮氓聟楼氓路楼盲陆聹猫隆篓茫聙聜 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.insertSheet(0);
@@ -56,13 +56,13 @@ Workbook.insertSheet(0);
 
 ## insertSheet(name, index)
 
-插入工作表，并指定名字和位置。
+忙聫聮氓聟楼氓路楼盲陆聹猫隆篓茂录聦氓鹿露忙聦聡氓庐職氓聬聧氓颅聴氓聮聦盲陆聧莽陆庐茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Sheet - 新增加的工作表
+Sheet - 忙聳掳氓垄聻氓聤聽莽職聞氓路楼盲陆聹猫隆篓
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.insertSheet('hello world', 0);
@@ -70,20 +70,20 @@ Workbook.insertSheet('hello world', 0);
 
 ## moveSheet(sheet, targetIndex)
 
-移动 Worksheet 到指定位置。
+莽搂禄氓聤篓 Worksheet 氓聢掳忙聦聡氓庐職盲陆聧莽陆庐茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Workbook - 当前表格实例
+Workbook - 氓陆聯氓聣聧猫隆篓忙聽录氓庐聻盲戮聥
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| sheet | Sheet | 是 | 要移动的目标工作表 |
-| targetIndex | number | 是 | 目标的索引位置 |
+| sheet | Sheet | 忙聵炉 | 猫娄聛莽搂禄氓聤篓莽職聞莽聸庐忙聽聡氓路楼盲陆聹猫隆篓 |
+| targetIndex | number | 忙聵炉 | 莽聸庐忙聽聡莽職聞莽麓垄氓录聲盲陆聧莽陆庐 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const sheet = Workbook.getSheetByIndex(0);
@@ -92,19 +92,19 @@ Workbook.moveSheet(sheet, 1);
 
 ## deleteSheet(name)
 
-删除工作表。
+氓聢聽茅聶陇氓路楼盲陆聹猫隆篓茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Workbook - 当前表格实例
+Workbook - 氓陆聯氓聣聧猫隆篓忙聽录氓庐聻盲戮聥
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| name | Sheet | string | 是 | 工作表对象、ID或名字 |
+| name | Sheet | string | 忙聵炉 | 氓路楼盲陆聹猫隆篓氓炉鹿猫卤隆茫聙聛ID忙聢聳氓聬聧氓颅聴 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 Workbook.deleteSheetByName('Sheet1');
@@ -112,19 +112,19 @@ Workbook.deleteSheetByName('Sheet1');
 
 ## setActiveSheet(sheet)
 
-激活工作表。
+忙驴聙忙麓禄氓路楼盲陆聹猫隆篓茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Sheet - 激活的工作表
+Sheet - 忙驴聙忙麓禄莽職聞氓路楼盲陆聹猫隆篓
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| sheet | Sheet | 是 | 想激活的工作表对象、ID或名字 |
+| sheet | Sheet | 忙聵炉 | 忙聝鲁忙驴聙忙麓禄莽職聞氓路楼盲陆聹猫隆篓氓炉鹿猫卤隆茫聙聛ID忙聢聳氓聬聧氓颅聴 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const sheet = Workbook.getSheetByName('Sheet1');
@@ -133,13 +133,13 @@ Workbook.setActiveSheet(sheet);
 
 ## getSheets()
 
-获取所有的工作表。
+猫聨路氓聫聳忙聣聙忙聹聣莽職聞氓路楼盲陆聹猫隆篓茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Sheet[] - 所有的工作表
+Sheet[] - 忙聣聙忙聹聣莽職聞氓路楼盲陆聹猫隆篓
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const sheets = Workbook.getSheets();
@@ -147,31 +147,31 @@ const sheets = Workbook.getSheets();
 
 ## getSheetCount()
 
-获取工作表的数量。
+猫聨路氓聫聳氓路楼盲陆聹猫隆篓莽職聞忙聲掳茅聡聫茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-number - 工作表的数量
+number - 氓路楼盲陆聹猫隆篓莽職聞忙聲掳茅聡聫
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const sheetCount = Workbook.getSheetCount();
 
-// 等价于
+// 莽颅聣盲禄路盲潞聨
 const sheets = Workbook.getSheets();
 const sheetCount = sheets.length;
 ```
 
 ## getActiveSheet()
 
-获取当前激活的工作表。
+猫聨路氓聫聳氓陆聯氓聣聧忙驴聙忙麓禄莽職聞氓路楼盲陆聹猫隆篓茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Sheet - 当前激活的工作表
+Sheet - 氓陆聯氓聣聧忙驴聙忙麓禄莽職聞氓路楼盲陆聹猫隆篓
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const sheet = Workbook.getActiveSheet();
@@ -180,19 +180,19 @@ sheet.getRange(0, 0, 2, 2).setBackgroundColor('yellow');
 
 ## getSheet(key)
 
-根据 ID 或者 name 获取工作表。
+忙聽鹿忙聧庐 ID 忙聢聳猫聙聟 name 猫聨路氓聫聳氓路楼盲陆聹猫隆篓茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Sheet | null - 查询到的工作表。null表示没有查到。
+Sheet | null - 忙聼楼猫炉垄氓聢掳莽職聞氓路楼盲陆聹猫隆篓茫聙聜null猫隆篓莽陇潞忙虏隆忙聹聣忙聼楼氓聢掳茫聙聜
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| key | string | 是 | 工作表的 ID 或者 name |
+| key | string | 忙聵炉 | 氓路楼盲陆聹猫隆篓莽職聞 ID 忙聢聳猫聙聟 name |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const sheet1 = Workbook.getSheet('id1');
@@ -201,121 +201,121 @@ const sheet2 = Workbook.getSheet('Sheet2');
 
 ## getRange(a1Notation)
 
-获取当前工作表的选区范围。
+猫聨路氓聫聳氓陆聯氓聣聧氓路楼盲陆聹猫隆篓莽職聞茅聙聣氓聦潞猫聦聝氓聸麓茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 选区
+Range - 茅聙聣氓聦潞
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| a1Notation | string | 是 | 选区地址 |
+| a1Notation | string | 忙聵炉 | 茅聙聣氓聦潞氓聹掳氓聺聙 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const range = Workbook.getRange('A1:B4');
 
-// 等价于
+// 莽颅聣盲禄路盲潞聨
 const range = Workbook.getActiveSheet().getRange('A1:B4');
 ```
 
 ## getRange(row, column, rowCount, columnCount)
 
-获取当前工作表的选区范围。
+猫聨路氓聫聳氓陆聯氓聣聧氓路楼盲陆聹猫隆篓莽職聞茅聙聣氓聦潞猫聦聝氓聸麓茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range - 选区
+Range - 茅聙聣氓聦潞
 
-### 参数说明
+### 氓聫聜忙聲掳猫炉麓忙聵聨
 
-| 参数 | 类型 | 是否必传 | 说明 |
+| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
 | --- | --- | --- | --- |
-| row | number | 是 | 行，从 0 开始 |
-| column | number | 是 | 列，从 0 开始 |
-| rowCount | number | 是 | 行数，从 1 开始 |
-| columnCount | number | 是 | 列数，从 1 开始 |
+| row | number | 忙聵炉 | 猫隆聦茂录聦盲禄聨 0 氓录聙氓搂聥 |
+| column | number | 忙聵炉 | 氓聢聴茂录聦盲禄聨 0 氓录聙氓搂聥 |
+| rowCount | number | 忙聵炉 | 猫隆聦忙聲掳茂录聦盲禄聨 1 氓录聙氓搂聥 |
+| columnCount | number | 忙聵炉 | 氓聢聴忙聲掳茂录聦盲禄聨 1 氓录聙氓搂聥 |
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const range = Workbook.getRange(0, 0, 2, 2);
 
-// 等价于
+// 莽颅聣盲禄路盲潞聨
 const range = Workbook.getActiveSheet().getRange(0, 0, 2, 2);
 ```
 
 ## getActiveCell()
 
-获取activeCell。
+猫聨路氓聫聳activeCell茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
 Range - activeCell
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const range = Workbook.getActiveCell();
 
-// 等价于
+// 莽颅聣盲禄路盲潞聨
 const range = Workbook.getActiveSheet().getActiveCell();
 ```
 
 ## getActiveRange()
 
-获取激活的选区。如果激活了多个不连续区域，则返回activeCell所在的选区。
+猫聨路氓聫聳忙驴聙忙麓禄莽職聞茅聙聣氓聦潞茫聙聜氓娄聜忙聻聹忙驴聙忙麓禄盲潞聠氓陇職盲赂陋盲赂聧猫驴聻莽禄颅氓聦潞氓聼聼茂录聦氓聢聶猫驴聰氓聸聻activeCell忙聣聙氓聹篓莽職聞茅聙聣氓聦潞茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-Range | null - 当前激活的选区。如果当前选中了图表等，则返回null。
+Range | null - 氓陆聯氓聣聧忙驴聙忙麓禄莽職聞茅聙聣氓聦潞茫聙聜氓娄聜忙聻聹氓陆聯氓聣聧茅聙聣盲赂颅盲潞聠氓聸戮猫隆篓莽颅聣茂录聦氓聢聶猫驴聰氓聸聻null茫聙聜
 
 ## getRangeList(a1Notations)
 
-获取多选区。
+猫聨路氓聫聳氓陇職茅聙聣氓聦潞茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-RangeList | null - 多选区
+RangeList | null - 氓陇職茅聙聣氓聦潞
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const rangeList = Workbook.getRangeList(['A1:B10', 'D2:E5']);
 
-// 等价于
+// 莽颅聣盲禄路盲潞聨
 const rangeList = Workbook.getActiveSheet().getRangeList(['A1:B10', 'D2:E5']);
 ```
 
 ## getActiveRangeList()
 
-获取激活的多选区。
+猫聨路氓聫聳忙驴聙忙麓禄莽職聞氓陇職茅聙聣氓聦潞茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-RangeList - 激活的多选区
+RangeList - 忙驴聙忙麓禄莽職聞氓陇職茅聙聣氓聦潞
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const rangeList = Workbook.getActiveRangeList();
 
-// 等价于
+// 莽颅聣盲禄路盲潞聨
 const rangeList = Workbook.getActiveSheet().getActiveRangeList();
 ```
 
 ## newFilterCriteriaBuilder()
 
-新建一个筛选条件规则的生成器。
+忙聳掳氓禄潞盲赂聙盲赂陋莽颅聸茅聙聣忙聺隆盲禄露猫搂聞氓聢聶莽職聞莽聰聼忙聢聬氓聶篓茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-FilterCriteriaBuilder - 筛选条件规则生成器
+FilterCriteriaBuilder - 莽颅聸茅聙聣忙聺隆盲禄露猫搂聞氓聢聶莽聰聼忙聢聬氓聶篓
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const criteria = Workbook.newFilterCriteriaBuilder()

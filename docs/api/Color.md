@@ -2,13 +2,13 @@
 
 ## getRed()
 
-获得颜色RGB值中的R值。
+猫聨路氓戮聴茅垄聹猫聣虏RGB氓聙录盲赂颅莽職聞R氓聙录茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-number - RGB值中的R值。
+number - RGB氓聙录盲赂颅莽職聞R氓聙录茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const red = color.getRed();
@@ -16,13 +16,13 @@ const red = color.getRed();
 
 ## getGreen()
 
-获得颜色RGB值中的G值。
+猫聨路氓戮聴茅垄聹猫聣虏RGB氓聙录盲赂颅莽職聞G氓聙录茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-number - RGB值中的G值。
+number - RGB氓聙录盲赂颅莽職聞G氓聙录茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const green = color.getGreen();
@@ -30,13 +30,13 @@ const green = color.getGreen();
 
 ## getBlue()
 
-获得颜色RGB值中的B值。
+猫聨路氓戮聴茅垄聹猫聣虏RGB氓聙录盲赂颅莽職聞B氓聙录茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-number - RGB值中的B值。
+number - RGB氓聙录盲赂颅莽職聞B氓聙录茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const blue = color.getBlue();
@@ -44,13 +44,13 @@ const blue = color.getBlue();
 
 ## getHexString()
 
-获得颜色的十六进制字符串。
+猫聨路氓戮聴茅垄聹猫聣虏莽職聞氓聧聛氓聟颅猫驴聸氓聢露氓颅聴莽卢娄盲赂虏茫聙聜
 
-### 返回结果
+### 猫驴聰氓聸聻莽禄聯忙聻聹
 
-string - 颜色的十六进制字符串，如 #ff0000 。
+string - 茅垄聹猫聣虏莽職聞氓聧聛氓聟颅猫驴聸氓聢露氓颅聴莽卢娄盲赂虏茂录聦氓娄聜 #ff0000 茫聙聜
 
-### 示例代码
+### 莽陇潞盲戮聥盲禄拢莽聽聛
 
 ```
 const hex = color.getHexString();
