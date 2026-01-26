@@ -2,13 +2,13 @@
 
 ## getId()
 
-猫聨路氓聫聳 ID茫聙聜
+获取 ID。
 
-### 猫驴聰氓聸聻莽禄聯忙聻聹
+### 返回结果
 
-string - ID茫聙聜
+string - ID。
 
-### 莽陇潞盲戮聥盲禄拢莽聽聛
+### 示例代码
 
 ```
 const filterId = filter.getId();
@@ -16,13 +16,13 @@ const filterId = filter.getId();
 
 ## getRange()
 
-猫聨路氓聫聳氓陆聯氓聣聧莽颅聸茅聙聣氓聦潞氓聼聼茫聙聜
+获取当前筛选区域。
 
-### 猫驴聰氓聸聻莽禄聯忙聻聹
+### 返回结果
 
-Range | null - 莽颅聸茅聙聣忙聣聙氓聹篓莽職聞 Range茫聙聜
+Range | null - 筛选所在的 Range。
 
-### 莽陇潞盲戮聥盲禄拢莽聽聛
+### 示例代码
 
 ```
 const range = filter.getRange();
@@ -30,13 +30,13 @@ const range = filter.getRange();
 
 ## delete()
 
-莽搂禄茅聶陇氓陆聯氓聣聧 filter茫聙聜
+移除当前 filter。
 
-### 猫驴聰氓聸聻莽禄聯忙聻聹
+### 返回结果
 
 void -
 
-### 莽陇潞盲戮聥盲禄拢莽聽聛
+### 示例代码
 
 ```
 filter.delete();
@@ -44,19 +44,19 @@ filter.delete();
 
 ## getColumnFilterCriteria(column)
 
-猫聨路氓聫聳忙聦聡氓庐職氓聢聴莽職聞莽颅聸茅聙聣猫搂聞氓聢聶氓庐聻盲戮聥茫聙聜
+获取指定列的筛选规则实例。
 
-### 猫驴聰氓聸聻莽禄聯忙聻聹
+### 返回结果
 
-FilterCriteria | null - 莽颅聸茅聙聣猫搂聞氓聢聶茫聙聜
+FilterCriteria | null - 筛选规则。
 
-### 氓聫聜忙聲掳猫炉麓忙聵聨
+### 参数说明
 
-| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
+| 参数 | 类型 | 是否必传 | 说明 |
 | --- | --- | --- | --- |
-| column | number | 忙聵炉 | 莽聸赂氓炉鹿盲潞聨 filterRange 茅娄聳氓聢聴莽職聞氓聛聫莽搂禄茅聡聫茫聙聜 |
+| column | number | 是 | 相对于 filterRange 首列的偏移量。 |
 
-### 莽陇潞盲戮聥盲禄拢莽聽聛
+### 示例代码
 
 ```
 const filterCriteria = filter.getColumnFilterCriteria(0);
@@ -64,20 +64,20 @@ const filterCriteria = filter.getColumnFilterCriteria(0);
 
 ## setColumnFilterCriteria(column, filterCriteria)
 
-猫庐戮莽陆庐忙聦聡氓庐職氓聢聴莽職聞莽颅聸茅聙聣猫搂聞氓聢聶茫聙聜
+设置指定列的筛选规则。
 
-### 猫驴聰氓聸聻莽禄聯忙聻聹
+### 返回结果
 
-Filter - 氓陆聯氓聣聧Filter氓庐聻盲戮聥茫聙聜
+Filter - 当前Filter实例。
 
-### 氓聫聜忙聲掳猫炉麓忙聵聨
+### 参数说明
 
-| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
+| 参数 | 类型 | 是否必传 | 说明 |
 | --- | --- | --- | --- |
-| column | number | 忙聵炉 | 莽聸赂氓炉鹿盲潞聨莽颅聸茅聙聣氓聦潞氓聼聼茅娄聳氓聢聴莽職聞氓聛聫莽搂禄茅聡聫茫聙聜 |
-| filterCriteria | FilterCriteria | 忙聵炉 | 莽颅聸茅聙聣猫搂聞氓聢聶茫聙聜 |
+| column | number | 是 | 相对于筛选区域首列的偏移量。 |
+| filterCriteria | FilterCriteria | 是 | 筛选规则。 |
 
-### 莽陇潞盲戮聥盲禄拢莽聽聛
+### 示例代码
 
 ```
 const criteria = Workbook.newFilterCriteriaBuilder().
@@ -88,19 +88,19 @@ filter.setColumnFilterCriteria(0, criteria);
 
 ## clearColumnFilterCriteria(column)
 
-莽搂禄茅聶陇忙聦聡氓庐職氓聢聴莽職聞莽颅聸茅聙聣猫搂聞氓聢聶茫聙聜
+移除指定列的筛选规则。
 
-### 猫驴聰氓聸聻莽禄聯忙聻聹
+### 返回结果
 
-Filter - 氓陆聯氓聣聧Filter氓庐聻盲戮聥茫聙聜
+Filter - 当前Filter实例。
 
-### 氓聫聜忙聲掳猫炉麓忙聵聨
+### 参数说明
 
-| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 忙聵炉氓聬娄氓驴聟盲录聽 | 猫炉麓忙聵聨 |
+| 参数 | 类型 | 是否必传 | 说明 |
 | --- | --- | --- | --- |
-| column | number | 忙聵炉 | 莽聸赂氓炉鹿盲潞聨莽颅聸茅聙聣氓聦潞氓聼聼茅娄聳氓聢聴莽職聞氓聛聫莽搂禄茅聡聫茫聙聜 |
+| column | number | 是 | 相对于筛选区域首列的偏移量。 |
 
-### 莽陇潞盲戮聥盲禄拢莽聽聛
+### 示例代码
 
 ```
 filter.clearColumnFilterCriteria(0);
@@ -108,20 +108,20 @@ filter.clearColumnFilterCriteria(0);
 
 ## sort(field)
 
-莽颅聸茅聙聣忙聨聮氓潞聫茫聙聜
+筛选排序。
 
-### 猫驴聰氓聸聻莽禄聯忙聻聹
+### 返回结果
 
-Filter - 氓陆聯氓聣聧Filter氓庐聻盲戮聥茫聙聜
+Filter - 当前Filter实例。
 
-### 氓聫聜忙聲掳猫炉麓忙聵聨
+### 参数说明
 
-| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 猫炉麓忙聵聨 |
+| 参数 | 类型 | 说明 |
 | --- | --- | --- |
-| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 猫炉麓忙聵聨 |
-| field | SortField | number    莽卤禄氓聻聥忙聵炉number忙聴露茂录聦忙聦聡氓庐職忙聨聮氓潞聫忙聦聣莽聟搂莽颅聸茅聙聣氓聦潞氓聼聼莽職聞茅娄聳氓聢聴莽職聞氓聛聫莽搂禄茅聡聫茂录聦茅聶聧氓潞聫忙聨聮氓潞聫 | 忙聨聮氓潞聫猫搂聞氓聢聶茫聙聜 |
+| 参数 | 类型 | 说明 |
+| field | SortField | number    类型是number时，指定排序按照筛选区域的首列的偏移量，降序排序 | 排序规则。 |
 
-### 莽陇潞盲戮聥盲禄拢莽聽聛
+### 示例代码
 
 ```
 filter.sort({ column: 0, ascending: false });
@@ -130,19 +130,19 @@ filter.sort(0);
 
 ## getColumnSortState(column)
 
-猫聨路氓聫聳忙聨聮氓潞聫莽聤露忙聙聛茫聙聜
+获取排序状态。
 
-### 猫驴聰氓聸聻莽禄聯忙聻聹
+### 返回结果
 
-'none' | 'ascending' | 'descending' - 忙聨聮氓潞聫莽聤露忙聙聛茂录聦盲戮聺忙卢隆盲禄拢猫隆篓忙聴聽忙聨聮氓潞聫茫聙聛氓聧聡氓潞聫氓聮聦茅聶聧氓潞聫茫聙聜
+'none' | 'ascending' | 'descending' - 排序状态，依次代表无排序、升序和降序。
 
-### 氓聫聜忙聲掳猫炉麓忙聵聨
+### 参数说明
 
-| 氓聫聜忙聲掳 | 莽卤禄氓聻聥 | 猫炉麓忙聵聨 |
+| 参数 | 类型 | 说明 |
 | --- | --- | --- |
-| column | number | 莽聸赂氓炉鹿盲潞聨莽颅聸茅聙聣氓聦潞氓聼聼茅娄聳氓聢聴莽職聞氓聛聫莽搂禄茅聡聫茫聙聜 |
+| column | number | 相对于筛选区域首列的偏移量。 |
 
-### 莽陇潞盲戮聥盲禄拢莽聽聛
+### 示例代码
 
 ```
 const state = filter.getColumnSortState(0);

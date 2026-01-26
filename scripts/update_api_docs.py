@@ -32,6 +32,13 @@ except ImportError:
     print("运行：pip install requests")
     sys.exit(1)
 
+try:
+    from markitdown import MarkItDown
+except ImportError:
+    print("错误：需要安装 markitdown 库")
+    print("运行：pip install markitdown")
+    sys.exit(1)
+
 # API 文档配置：API名称 -> HTML文件名
 # 值为 None 表示该 API 在官方 OSS 上没有单独的文档页面
 API_DOCS = {
@@ -62,53 +69,42 @@ API_DOCS = {
 BASE_URL = "https://icms-document.oss-cn-beijing.aliyuncs.com/zh-CN/dingtalk/orgapp/topics"
 
 
-def check_markitdown():
-    """检查 markitdown 是否已安装"""
-    try:
-        subprocess.run(
-            ["markitdown", "--help"],
-            capture_output=True,
-            check=True
-        )
-        return True
-    except (subprocess.CalledProcessError, FileNotFoundError):
-        return False
-
-
-def download_html(api_name: str, html_name: str) -> str | None:
-    """下载 API 文档的 HTML 文件"""
+def download_and_convert(api_name: str, html_name: str, output_path: Path) -> bool:
+    """下载 API 文档并转换为 Markdown"""
     url = f"{BASE_URL}/{html_name}.html"
     print(f"  下载: {url}")
 
     try:
+        # 下载 HTML
         response = requests.get(url, timeout=30)
         response.raise_for_status()
-        return response.text
+        response.encoding = 'utf-8'
+        html_content = response.text
+
+        # 保存临时 HTML 文件
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.html', delete=False, encoding='utf-8') as f:
+            f.write(html_content)
+            temp_html = f.name
+
+        try:
+            # 使用 markitdown Python API 转换
+            md = MarkItDown()
+            result = md.convert(temp_html)
+
+            # 写入输出文件
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write(result.text_content)
+
+            return True
+        finally:
+            os.unlink(temp_html)
+
     except requests.RequestException as e:
         print(f"  错误: 下载失败 - {e}")
-        return None
-
-
-def convert_to_markdown(html_content: str, output_path: Path) -> bool:
-    """使用 markitdown 将 HTML 转换为 Markdown"""
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.html', delete=False) as f:
-        f.write(html_content)
-        temp_html = f.name
-
-    try:
-        result = subprocess.run(
-            ["markitdown", temp_html, "-o", str(output_path)],
-            capture_output=True,
-            text=True
-        )
-
-        if result.returncode != 0:
-            print(f"  错误: 转换失败 - {result.stderr}")
-            return False
-
-        return True
-    finally:
-        os.unlink(temp_html)
+        return False
+    except Exception as e:
+        print(f"  错误: 转换失败 - {e}")
+        return False
 
 
 def update_api_doc(api_name: str, output_dir: Path) -> bool:
@@ -128,13 +124,8 @@ def update_api_doc(api_name: str, output_dir: Path) -> bool:
 
     print(f"\n更新 {api_name}...")
 
-    # 下载 HTML
-    html_content = download_html(api_name, html_name)
-    if not html_content:
-        return False
-
-    # 转换为 Markdown
-    if not convert_to_markdown(html_content, output_path):
+    # 下载并转换
+    if not download_and_convert(api_name, html_name, output_path):
         return False
 
     print(f"  完成: {output_path}")
@@ -185,12 +176,6 @@ def main():
         for api in ["Hyperlink"]:
             print(f"  - {api}")
         return
-
-    # 检查 markitdown
-    if not check_markitdown():
-        print("错误：未安装 markitdown")
-        print("请运行：pip install markitdown")
-        sys.exit(1)
 
     # 确定输出目录
     if args.output:
