@@ -21,6 +21,10 @@ npx skills add RockyZ/dingtalk-sheet-scripts
 2. 按需查阅 `docs/api/` 中的对象文档（如 `Workbook`、`Sheet`、`Range`）
 3. 参考 `examples/fetch-demo.js` 快速开始编写脚本
 
+## Chrome 插件
+
+配合 [钉钉表格快捷脚本](https://chromewebstore.google.com/detail/%E9%92%89%E9%92%89%E8%A1%A8%E6%A0%BC%E5%BF%AB%E6%8D%B7%E8%84%9A%E6%9C%AC/ciebfokpkimacnkagnlifoopglmmpgjh) Chrome 插件使用，可快速打开表格脚本菜单，一键执行脚本。
+
 ## 相关文档
 
 - API 索引：`docs/api/README.md`
